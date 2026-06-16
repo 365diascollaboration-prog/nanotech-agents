@@ -55,6 +55,12 @@ BUSINESS:  If you want to collaborate at a business level → open an issue
 |-------|-------------|------|
 | [`recuperador-archivos-companion`](agents/recuperador-archivos-companion.md) | Expert guide for [recuperador-archivos](https://github.com/365diascollaboration-prog/recuperador-archivos) — recover deleted files on Windows | Claude Code |
 
+### Growth & Strategy
+
+| Agent | Description | Tool |
+|-------|-------------|------|
+| [`github-growth-strategist`](agents/github-growth-strategist.md) | Strategic advisor for growing your GitHub presence through quality contributions and achievement hunting — built from a real earned method | Claude Code |
+
 ---
 
 ## ⚡ Quick Start
