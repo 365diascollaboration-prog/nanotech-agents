@@ -95,7 +95,7 @@ Use the video-producer-latam agent to help me produce my next episode.
 > *"If it doesn't exist and I need it — I build it."*
 
 [![GitHub](https://img.shields.io/badge/GitHub-365diascollaboration--prog-07071a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/365diascollaboration-prog)
-[![YouTube](https://img.shields.io/badge/YouTube-@365diascollaboration-07071a?style=for-the-badge&logo=youtube&logoColor=ff0000)](https://youtube.com/@365diascollaboration)
+[![YouTube](https://img.shields.io/badge/YouTube-@365collaboration-07071a?style=for-the-badge&logo=youtube&logoColor=ff0000)](https://www.youtube.com/@365collaboration)
 
 ---
 
