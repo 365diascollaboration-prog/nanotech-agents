@@ -61,6 +61,12 @@ BUSINESS:  If you want to collaborate at a business level → open an issue
 |-------|-------------|------|
 | [`github-growth-strategist`](agents/github-growth-strategist.md) | Strategic advisor for growing your GitHub presence through quality contributions and achievement hunting — built from a real earned method | Claude Code |
 
+### Infrastructure
+
+| Agent | Description | Tool |
+|-------|-------------|------|
+| [`local-claude-architect`](agents/local-claude-architect.md) | Zero-cost local AI stack: OpenAI-compatible proxy over Claude CLI + Hindsight persistent vector memory. No API key, no Docker, no extra cost. Auto-starts on Windows login. | Claude Code |
+
 ---
 
 ## ⚡ Quick Start
@@ -88,6 +94,8 @@ Use the video-producer-latam agent to help me produce my next episode.
 | Layer | Technology |
 |-------|------------|
 | AI Runtime | Claude Code · MCP |
+| Local AI Proxy | Node.js · claude CLI · OpenAI-compatible API |
+| Persistent Memory | Hindsight · pgvector · BAAI/bge-small-en-v1.5 |
 | Video Production | HyperFrames · GSAP · FFmpeg |
 | Distribution | YouTube · LATAM |
 | Language | English (primary) · Spanish LATAM |
