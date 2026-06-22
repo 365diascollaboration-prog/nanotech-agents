@@ -66,6 +66,7 @@ BUSINESS:  If you want to collaborate at a business level → open an issue
 | Agent | Description | Tool |
 |-------|-------------|------|
 | [`local-claude-architect`](agents/local-claude-architect.md) | Zero-cost local AI stack: OpenAI-compatible proxy over Claude CLI + Hindsight persistent vector memory. No API key, no Docker, no extra cost. Auto-starts on Windows login. | Claude Code |
+| [`openai-bridge-claude`](agents/openai-bridge-claude.md) | Single-file Node.js proxy that exposes an OpenAI-compatible API backed by your Claude subscription. No API key, no dependencies — just `node` and the Claude CLI. Works on Windows, Mac, Linux. | Claude Code |
 
 ---
 
