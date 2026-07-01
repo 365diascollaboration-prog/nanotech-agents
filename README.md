@@ -67,6 +67,7 @@ BUSINESS:  If you want to collaborate at a business level → open an issue
 |-------|-------------|------|
 | [`local-claude-architect`](agents/local-claude-architect.md) | Zero-cost local AI stack: OpenAI-compatible proxy over Claude CLI + Hindsight persistent vector memory. No API key, no Docker, no extra cost. Auto-starts on Windows login. | Claude Code |
 | [`openai-bridge-claude`](agents/openai-bridge-claude.md) | Single-file Node.js proxy that exposes an OpenAI-compatible API backed by your Claude subscription. No API key, no dependencies — just `node` and the Claude CLI. Works on Windows, Mac, Linux. | Claude Code |
+| [`huggingface-hermes-bridge`](agents/huggingface-hermes-bridge.md) | Points Hermes Agent (or any OpenAI-compatible client) at Hugging Face's Inference Providers router using a PRO token. Covers the tool-calling model trap (some models fake function calls as text) and how to repair a broken vendored agent install. | Claude Code |
 
 ---
 
