@@ -322,7 +322,19 @@ def cmd_gen_captions(args: argparse.Namespace) -> None:
         fail(f"Transcript file not found: {transcript_path}", out_json)
 
     raw_data = json.loads(transcript_path.read_text(encoding="utf-8"))
-    words_list = raw_data.get("words", raw_data) if isinstance(raw_data, dict) else raw_data
+    if isinstance(raw_data, list):
+        words_list = raw_data
+    elif isinstance(raw_data, dict):
+        if "words" in raw_data and isinstance(raw_data["words"], list):
+            words_list = raw_data["words"]
+        elif "segments" in raw_data and isinstance(raw_data["segments"], list):
+            words_list = []
+            for seg in raw_data["segments"]:
+                words_list.extend(seg.get("words", []))
+        else:
+            words_list = []
+    else:
+        words_list = []
 
     # Filter and normalize words up to --cta-cutoff
     cutoff = float(args.cta_cutoff)
